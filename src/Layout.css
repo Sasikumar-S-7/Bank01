@@ -1,0 +1,36 @@
+.menu:hover
+{
+   border-bottom: 2px solid black; 
+}
+
+#anounce ul li
+{
+	color: blue;
+	height: 35px;
+
+}
+.footer-menu,.footer-li
+{
+	background-color:blueviolet;
+}
+.footer-menu ul li 
+{
+	color: white;
+	border-right:1px solid white ;
+	display: inline;
+}
+.footer-li ul li
+{
+	list-style: none;
+	font-size: 14px;
+}
+.zoom{
+	transition: transform .2s;
+}
+.zoom:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1); 
+  }
+
+  
